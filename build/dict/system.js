@@ -1,0 +1,2 @@
+var appName='system';
+var dict =[{"indexName":"家庭关系","hiberarchy":"1","codeData":[{"codeValue":"父亲","codeDesc":"父亲","paraStatus":"1","childNodes":null},{"codeValue":"母亲","codeDesc":"母亲","paraStatus":"1","childNodes":null},{"codeValue":"兄弟","codeDesc":"兄弟","paraStatus":"1","childNodes":null},{"codeValue":"姐妹","codeDesc":"姐妹","paraStatus":"1","childNodes":null},{"codeValue":"子女","codeDesc":"子女","paraStatus":"1","childNodes":null}]}];

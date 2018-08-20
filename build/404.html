@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>error404</title>
+	</head>
+	<body>
+		<script language="javascript">
+			var href = window.location.href;
+			var pos = href.indexOf('/', 10);
+			if(pos > 0){
+				var host = href.substr(0, 1+pos);
+				href = href.substr(1+pos);
+				
+				var prx = '';
+				pos = href.indexOf('/');
+				if(pos > 0){
+					prx = href.substr(0, pos);
+				}
+				
+				if(prx === 'resume' || prx === 'resume2'){
+					document.location.href=host+'resume.html';
+				}
+				else if(prx === 'auth' || prx === 'auth2'){
+					document.location.href=host+'auth.html';
+				}
+				else if(prx === 'param' || prx === 'param2'){
+					document.location.href=host+'auth.html';
+				}
+				else if(prx === 'hr'){
+					document.location.href=host+'hr.html';
+				}
+				else if(prx === 'proj'){
+					document.location.href=host+'proj.html';
+				}
+				else if(prx === 'avt'){
+					document.location.href=host+'avt.html';
+				}
+				else if(prx === 'uman'){
+					document.location.href=host+'uman.html';
+				}
+				else if(prx === 'camp'){
+					document.location.href=host+'camp.html';
+				}
+				else if(prx === 'env'){
+					document.location.href=host+'env.html';
+				}
+				else if(prx === 'dev'){
+					document.location.href=host+'dev.html';
+				}
+				else if(prx === 'cost'){
+					document.location.href=host+'cost.html';
+				}
+				else if(prx === 'ats'){
+					document.location.href=host+'ats.html';
+				}
+				else if(prx === 'asset'){
+					document.location.href=host+'asset.html';
+				}
+				else if(prx === 'tbug'){
+					document.location.href=host+'tbug.html';
+				}
+				else if(prx === 'tcase'){
+					document.location.href=host+'tcase.html';
+				}
+				else{
+					document.location.href=host+'index.html';
+				}
+			}
+			else{
+				var hint = '<div id="app" style="width:100%; height:100%">' +
+					'<div style="padding-top:100px;width:300px;margin:0 auto">没有找到页面：'+href+'</div>' +
+					'</div>';
+					
+				document.write(hint);
+			}
+		</script>
+	</body>
+</html>

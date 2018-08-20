@@ -1,0 +1,88 @@
+{
+  "name": "hr",
+  "version": "1.0.0",
+  "description": "IPPS",
+  "main": "docs/lib/app.js",
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "dll": "webpack --progress --colors --config ./ddl.config.js",
+    "app": "webpack --progress --colors --config ./app.config.js",
+    "start": "webpack-dev-server --progress --config ./webpack.dev.config.js --port 8360 --watch"
+  },
+  "files": [
+    "docs"
+  ],
+  "keywords": [
+    "ipps"
+  ],
+  "dependencies": {
+    "antd": "^2.10.0",
+    "classnames": "^2.2.3",
+    "fbemitter": "^2.1.1",
+    "file-loader": "^0.9.0",
+    "immutable": "^3.8.1",
+    "lodash.isfunction": "^3.0.8",
+    "lodash.isobject": "^3.0.2",
+    "lodash.omit": "^4.4.1",
+    "lodash.tonumber": "^4.0.3",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.5.4",
+    "react-addons-transition-group": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "reactstrap": "^4.4.0",
+    "tether": "^1.3.4",
+    "url-loader": "^0.5.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-app": "^0.2.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "clean-webpack-plugin": "^0.1.8",
+    "conventional-changelog-cli": "^1.1.1",
+    "conventional-recommended-bump": "^0.3.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "coveralls": "^2.11.12",
+    "cross-env": "^2.0.0",
+    "css-loader": "^0.25.0",
+    "ejs": "^2.5.1",
+    "enzyme": "^2.4.1",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb": "^10.0.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^6.0.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "history": "^3.0.0",
+    "holderjs": "^2.9.3",
+    "json-loader": "^0.5.4",
+    "raw-loader": "^0.5.1",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-addons-test-utils": "^15.3.0",
+    "react-addons-transition-group": "^15.3.0",
+    "react-dom": "^15.5.4",
+    "react-draggable": "^2.2.6",
+    "react-helmet": "^3.0.1",
+    "react-prism": "4.0.0",
+    "react-router": "^2.6.1",
+    "react-scripts": "^0.7.0",
+    "static-site-generator-webpack-plugin": "^2.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.10.10.236/web/hr-web.git"
+  },
+  "author": "lz",
+  "license": "ISC"
+}

@@ -1,0 +1,2 @@
+var appName='报销管理';
+var dict =[{"indexName":"酒店协议级别","hiberarchy":"1","codeData":[{"codeValue":"5","codeDesc":"最大优惠","paraStatus":"1","childNodes":null},{"codeValue":"3","codeDesc":"较好优惠","paraStatus":"1","childNodes":null},{"codeValue":"1","codeDesc":"普通优惠","paraStatus":"1","childNodes":null}]}];
